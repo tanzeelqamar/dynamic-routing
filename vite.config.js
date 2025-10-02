@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base : '/dynamic-routing/'
+  base : '/dynamic-routing.git/'
 })
