@@ -1,0 +1,155 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-nav {
+  margin-bottom: 20px;
+}
+
+.app-nav a {
+  text-decoration: none;
+  color: #1e1e1f;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+/* Navbar */
+
+
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+
+/* cards */
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: rgb(34, 34, 34);
+  border: 10px solid #ddd;
+  padding: 15px;
+  width: 420px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 10px;
+}
+
+.card-img {
+  max-width: 160px;
+  max-height: 200px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 10px 5;
+  color: rgb(187, 186, 186);
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #141414;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-link:hover {
+  background: #707172;
+}
+
+/* Card Detail Page */
+.card-detail {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background:  rgb(34, 34, 34);
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.detail-img img {
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+.detail-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color:  rgb(187, 186, 186);;
+
+}
+
+.detail-desc {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  text-decoration: none;
+   background: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
